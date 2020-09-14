@@ -47,7 +47,7 @@
                 "Maximof\\Laravel8Calendar\\Laravel8CalendarServiceProvider"
             ],
             "aliases": {
-                "Laravel8Calendar": "Maximof\\Laravel8Calendar\\Laravel8CalendarFacade"
+                "Laravel8Calendar": "Maximof\\Laravel8Calendar\\Facades\\Laravel8CalendarFacade"
             }
         }
     },
