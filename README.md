@@ -13,8 +13,7 @@ Thanks to [@maddhatter](https://github.com/maddhatter) for the [initial repo](ht
 
 You can install the package via composer:
 
-```composer require maximof/laravel-8-calendar
-```
+composer require maximof/laravel-8-calendar
 
 The provider and  `Laravel8Calendar` alias will be registered automatically.
 
