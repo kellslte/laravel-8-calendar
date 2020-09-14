@@ -1,0 +1,55 @@
+{
+    "name": "maximof/laravel-8-calendar",
+    "description": "A Laravel  package wrapper for fullcalendar.io",
+    "keywords": [
+        "maximof",
+        "laravel-8-calendar"
+    ],
+    "homepage": "https://github.com/maximof/laravel-8-calendar",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Favour Max-Oti",
+            "email": "maxotif@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.2*",
+        "illuminate/support": "^6.0|~7.0|~8.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.0",
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Maximof\\Laravel8Calendar\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Maximof\\Laravel8Calendar\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Maximof\\Laravel8Calendar\\Laravel8CalendarServiceProvider"
+            ],
+            "aliases": {
+                "Laravel8Calendar": "Maximof\\Laravel8Calendar\\Laravel8CalendarFacade"
+            }
+        }
+    },
+    "minimum-stability": "stable"
+}
